@@ -1,0 +1,20 @@
+# Display the name of the home directory.
+windowTitle           = "$TM_DISPLAYNAME — ${CWD/^.*\///}"
+
+# Basic Settings
+#
+fontName              = "OperatorMono-Light"
+fontSize              = 12
+showInvisibles        = true
+showWrapColumn        = true
+spellChecking         = false
+softTabs              = true
+sofWrap               = false
+tabSize               = 4
+wrapColumn            = 100
+
+# Hide log, vendor and tmp directories from search popups.
+#
+myExtraExcludes       = ".git,.tox,venv,*.egg-info"
+excludeInFileChooser  = "{$excludeInFileChooser,$myExtraExcludes}"
+excludeInFolderSearch = "{$excludeInFolderSearch,$myExtraExcludes}"
